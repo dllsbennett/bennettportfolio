@@ -1,0 +1,78 @@
+header, footer, section, nav, article {  
+    display: block;  
+}
+
+
+body {
+	margin: 0 auto;  
+  width: 940px;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.5em;
+}
+
+
+h1 {
+  color:rgb(168, 133, 168);
+  text-align: center;
+
+}
+
+
+h3 {
+  text-align: center;
+  color:#333;
+}
+
+/* TODO: Add property:value pairs to set the width and height of the header element. Give it a background color. add a border, and center its text. Look at the index.html to see what the header element creates on the page*/
+header {
+	margin: 5px auto;
+}
+
+/* TODO: Add property:value pairs to set the width and height of the footer element. Give it a background color. add a border, and center its text.
+Look at the index.html to see what the footer element creates on the page*/
+footer {
+	margin: 5px auto;
+}
+
+/* TODO: Add property:value pairs to set the width and height of the section element. Give it a background color. You may need to set it's top margin to create some space between the beginning of the main section and the end of the navigation bar. Look at the index.html to see what the section element creates on the page*/
+section {
+
+}
+
+
+/* This code styles your navigation bar. It works as is but feel free to change anything you'd like. Multiple tag selectors mean tags within tags.   */
+
+nav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+nav ul {
+	margin: 0px auto;
+	padding: 15px;
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;
+
+}
+
+nav li a {
+	display: inline-block;
+	text-align: center;
+	border-right: 2px solid thistle;
+  width: 100px;  
+  font-size: 14px; 
+	padding: 0px 10px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color:thistle;
+}
+
+
+
