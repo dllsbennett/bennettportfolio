@@ -17,10 +17,20 @@ h1 {
 
 }
 
+h2{
+  top-margin: 10px;
+  text-align: center;
+  font-size: .75em;
+}
 
 h3 {
   text-align: center;
   color:#333;
+}
+
+img {
+  height: 300px ;
+
 }
 
 /* TODO: Add property:value pairs to set the width and height of the header element. Give it a background color. add a border, and center its text. Look at the index.html to see what the header element creates on the page*/
@@ -31,7 +41,14 @@ header {
 /* TODO: Add property:value pairs to set the width and height of the footer element. Give it a background color. add a border, and center its text.
 Look at the index.html to see what the footer element creates on the page*/
 footer {
-	margin: 5px auto;
+	margin-top: auto ;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  height: 50%;
+  background-color: #333;
+  text-align: center;
+  color: whitesmoke;
 }
 
 /* TODO: Add property:value pairs to set the width and height of the section element. Give it a background color. You may need to set it's top margin to create some space between the beginning of the main section and the end of the navigation bar. Look at the index.html to see what the section element creates on the page*/
@@ -39,8 +56,8 @@ section {
 
 }
 
+/* got rid of sections and used seperate html instead so have nothing to change for section*/
 
-/* This code styles your navigation bar. It works as is but feel free to change anything you'd like. Multiple tag selectors mean tags within tags.   */
 
 nav {
   position: relative;
@@ -74,5 +91,20 @@ nav li a:hover {
 	color:thistle;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-
+.column {
+  float: left;
+  width: auto;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
